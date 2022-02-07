@@ -441,11 +441,10 @@ h2{
     /****INDEX-PRINCIPAL**
     *********************/
 
-.contenido-principal{
-        background-image: url(../imagenes/vector-abstract-design-background.jpg);
-        border-radius: 100px;
-    }
-
+.navbar{
+    width: 95%;
+}
+ 
     .contenido-sec{
         display: grid;
         grid-template-columns: 250px 250px 250px;
@@ -461,10 +460,17 @@ h2{
         font-size: small;  
     }
 
+/***********FOOTER ***************/
+/**********************************/
+
+.pie-pagina .grupo-1 .box h2{
+    margin-left: 5px;
+}
+
+
 /*PRESENTATION-INDEX P/TABLET*****
 **********************************/
 .us{
-    background-image: url(../imagenes/backtablet.png);
     display: flex;
     flex-direction: column;
     
