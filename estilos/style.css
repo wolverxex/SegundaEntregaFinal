@@ -288,7 +288,6 @@ header a{
 ************************/
 
 .servicios{
-    background-image: url(../imagenes/FondoNovedades.png);
     background-repeat: no-repeat;
     background-size: contain;
     display: grid;
@@ -327,52 +326,35 @@ header a{
     font-family: Arial, Helvetica, sans-serif;
     font-size: xx-large;
     font-weight: bold;
-    margin: 25px;
+    margin: 15px;
     border-radius: 15px;
     text-align: center;
-
 }
 
 
 .titulo-servicios{
-    background-color: rgb(58, 136, 189);
-    align-items: center;
+    background-image: linear-gradient(to top, #4facfe 0%, #00f2fe 100%);
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: xx-large;
     font-weight: bolder;
-    margin: 5px;}
-
-
-/*@keyframes tituloserv{
-    form{
-        transform: translatex(200px);
-    }
-    to{
-        transform: translatex(0px);
-    }
+    margin: 5px;
 }
-
-.titulo-animado-servicios{
-    animation-name: tituloserv;
-    animation-iteration-count: 1;
-    animation-duration: 5s;
-    animation-delay: 0s;
-}
-*/
 
 /***FORMULARIO******
 **********************/
 
 .titulo-form{
-    background-color: rgb(58, 136, 189);
-    margin: 10px;
+    background-image: linear-gradient(to top, #4facfe 0%, #00f2fe 100%);
+    margin: 5px;
 }
 
 .titulo-form h2{
     font-size: xx-large;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
+    color: white;
 
 }
 
@@ -381,11 +363,12 @@ header a{
 }
 
 .formulario h3{
-    background-color: rgb(58, 136, 189);
+    background-image: linear-gradient(to bottom, #4facfe 0%, #00f2fe 100%);
+    color: white;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: x-large;
+    font-size: xx-large;
     font-weight: bolder;
-    margin: 5px;
+    margin: 10px 5px;
 }
 .formulario div{
     width: 100%;
@@ -401,14 +384,15 @@ header a{
 *********************************/
 
 .titulo-flota{
-    background-color: rgb(58, 136, 189);
-    margin: 10px;
+    background-image: linear-gradient(to top, #4facfe 0%, #00f2fe 100%);
+    margin: 5px;
 }
 
-.titulo-flota h2{
+h2{
     font-size: xx-large;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
+    color: white;
 }
 
 .titulo-nuestra-flota{
