@@ -236,6 +236,11 @@ header a{
     border: 2px double white;
 }
 
+.pie-pagina .grupo-1 .box p a:hover{
+    background-color: white;
+    color: #005bea;
+}
+
 .pie-pagina .grupo-1 .box a img{
     margin-bottom: 15px;
     width: 50px;
