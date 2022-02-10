@@ -1,0 +1,43 @@
+//WORK US INDEX
+
+/*********WORK US *************/
+
+.titulo-flota{
+    background-image: linear-gradient(to top, #4facfe 0%, #00f2fe 100%);
+    margin: 5px;
+    h2{
+        font-size: xx-large;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bolder;
+        color: white;
+    }
+}
+
+.titulo-nuestra-flota{
+    animation-name: titulo-nuestra-flota;
+    animation-iteration-count: 1;
+    animation-duration: 1s;
+    animation-delay: 0s;
+}
+
+@keyframes titulo-nuestra-flota{
+    from{
+        transform: translate(-300px);
+    }
+    to{
+        transform: translate(0px);
+    }
+}
+
+.flota{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    img{
+        width: 400px;
+        height: 400px;
+        border-radius: 15px;
+        margin: 25px;}
+}
