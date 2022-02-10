@@ -9,9 +9,11 @@
 
 /*NAV BAR*/
 
+@import "colors";
+
 .conteinernav{
     width: 100%;
-    background-image: linear-gradient(to bottom, #4facfe 0%, #00f2fe 100%);
+    background-image: $navbarcolor;
     .navbar{
         width: 80%;
         margin: auto;
@@ -62,7 +64,7 @@
 
 .pie-pagina{
     width: 100%;
-    background-image: linear-gradient(to top, #00c6fb 0%, #005bea 100%);
+    background-image: $footercolor;
     .grupo-1{
         width: 100%;
         max-width: 1200px;

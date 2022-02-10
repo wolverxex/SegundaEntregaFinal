@@ -5,6 +5,7 @@
 */
 /*ESPACIO -_-*/
 /*NAV BAR*/
+/***************COLORES**************/
 .conteinernav {
   width: 100%;
   background-image: linear-gradient(to bottom, #4facfe 0%, #00f2fe 100%); }
@@ -97,6 +98,7 @@
   text-align: center; }
 
 /*INDEX PRINCIPAL*/
+/***************COLORES**************/
 .contenido-principal {
   background-size: 100% 100%;
   flex-wrap: wrap;
@@ -186,6 +188,7 @@
     text-align: center; }
 
 /*PRODUCTOS INDEX*/
+/***************COLORES**************/
 .servicios {
   background-repeat: no-repeat;
   background-size: contain;
@@ -223,6 +226,7 @@
   margin: 5px; }
 
 /*********WORK US *************/
+/***************COLORES**************/
 .titulo-flota {
   background-image: linear-gradient(to top, #4facfe 0%, #00f2fe 100%);
   margin: 5px; }
@@ -257,6 +261,7 @@
     margin: 25px; }
 
 /*FORMULARIO**/
+/***************COLORES**************/
 .titulo-form {
   background-image: linear-gradient(to top, #4facfe 0%, #00f2fe 100%);
   margin: 5px; }
@@ -281,3 +286,5 @@
     .formulario div img {
       width: 100%;
       height: 100%; }
+
+/***************COLORES**************/

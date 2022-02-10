@@ -2,8 +2,10 @@
 
 /*********WORK US *************/
 
+@import "colors";
+
 .titulo-flota{
-    background-image: linear-gradient(to top, #4facfe 0%, #00f2fe 100%);
+    background-image: $titulos;
     margin: 5px;
     h2{
         font-size: xx-large;
