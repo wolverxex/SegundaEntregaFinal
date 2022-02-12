@@ -20,24 +20,22 @@
         transition: 500ms;
     &:hover{                               //revisar
         width: 460px;
-        height: 310px;
-        
-    }
+        height: 310px;}
+    
+        .stytextindex{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: xx-large;
+            font-weight: bold;
+            color: white;
+            text-shadow: 3px 3px black;
+            text-align: center;
+            margin-top: 175px;
+            }
+    
     }
 }
 
-.contenido-principal{
-    .stytextindex{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: xx-large;
-    font-weight: bold;
-    color: white;
-    text-shadow: 3px 3px black;
-    text-align: center;
-    margin-top: 175px;
-    }
-    
-}
+
 
 .contenido-principal div img{
     width: 100%;
