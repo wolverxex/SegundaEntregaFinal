@@ -4,6 +4,39 @@
 *
 */
 /*ESPACIO -_-*/
+/* VERSION DESKTOP
+*******************/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+.bordes {
+  border: 1px solid black; }
+
+header {
+  grid-area: header; }
+
+nav {
+  grid-area: nav; }
+
+section .contenido-principal {
+  grid-area: contenido; }
+
+section .contenido-sec {
+  grid-area: contenido2; }
+
+footer {
+  grid-area: footer; }
+
+#grid {
+  display: grid;
+  grid-template-areas: "header" "nav" "contenido" "contenido2" "footer";
+  grid-template-columns: 100%; }
+
+body {
+  width: 100%; }
+
 /*NAV BAR*/
 .conteinernav {
   width: 100%;

@@ -1,13 +1,13 @@
 /*Resetear la pág*/
 
-*{
+/**{
     padding: 0; margin: 0;
     box-sizing: border-box;
-}
+}*/
 
 /* VERSION DESKTOP
 *******************/
-.bordes{
+/*.bordes{
     border: 1px solid black;
 }
 
@@ -46,7 +46,7 @@ footer{
 body{
     width: 100%;
 }
-
+*/
 /*HEADER***
 **********/
 
