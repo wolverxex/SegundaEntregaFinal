@@ -424,14 +424,13 @@ h2{
     /****INDEX-PRINCIPAL**
     *********************/
 
-.navbar{
+/*.navbar{
     width: 95%;
 }
  
     .contenido-sec{
         display: grid;
-        grid-template-columns: 250px 250px 250px;
-        grid-template-rows: 250px 250px;
+        
     }
     
     .contenido-sec div{
@@ -441,19 +440,19 @@ h2{
     
     .contenido-sec div p{
         font-size: small;  
-    }
+    }*/
 
 /***********FOOTER ***************/
 /**********************************/
 
-.pie-pagina .grupo-1 .box h2{
+/*.pie-pagina .grupo-1 .box h2{
     margin-left: 5px;
-}
+}*/
 
 
 /*PRESENTATION-INDEX P/TABLET*****
 **********************************/
-.us{
+/*.us{
     display: flex;
     flex-direction: column; 
 }
@@ -478,24 +477,24 @@ h2{
 .us p{
     border: 1px solid cyan;
 }
-
+*/
 
 
 /****PRODUCTOS-INDEX P/TABLET*****
 **********************************/
 
-.servicios{
+/*.servicios{
     background-image: none;
     grid-template-columns: 400px 400px;   
-}
+}*/
 
-.servicios img{
+/*.servicios img{
     height: 300px;
     width: 300px;
     margin: 15px;
 }
-
-.servicios p{
+*/
+/*.servicios p{
     height: 300px;
     width: 300px;
     font-size: 20px;
@@ -504,19 +503,19 @@ h2{
     text-align: center;
     padding-top: 100px;
 }
-
+*/
 /*******NUESTRAFLOTA-INDEX P/TABLET ******
 ******************************************/
 
-.flota img{
+/*.flota img{
     width: 315px;
     height: 250px;
 }
-
+*/
 /***FORMULARIO P/TABLET******
 *****************************/
 
-.formulario{
+/*.formulario{
     margin-left: 15px;
     margin-top: 15px;
 }
@@ -533,7 +532,7 @@ h2{
 
 }
 
-}
+}*/
 
 /**************VERSION-MOBILE********************************VERSION-MOBILE****
 *******************************************************************************/
@@ -544,7 +543,7 @@ h2{
 /***********NAV*************/
 /****************************/
 
-.navbar{
+/*.navbar{
     width: 100%;
     flex-direction: column;
     justify-content: center;
@@ -555,30 +554,25 @@ h2{
     display: block;
     margin: 10px;
 }
-
+*/
 /************FOOTER-MOBILE**************
 ****************************************/
 
-.pie-pagina .grupo-1{
+/*.pie-pagina .grupo-1{
     grid-template-columns: repeat(1, 1fr);
     
-}
+}*/
 
 /*C********INDEX-PRINCIPAL MOBILE****
 *************************************/
 
-
-.contenido-principal{
-    background-image: none;
-}
-
-.contenido-principal div p{
+/*.contenido-principal div p{
     font-size: x-large;
     margin-top: 190px;
 
-}
+}*/
 
-.contenido-sec{
+/*.contenido-sec{
     grid-template-columns: 350px;
     grid-template-rows: 200px;
     align-items: center;
@@ -593,11 +587,11 @@ h2{
     padding-top: 50px;
     font-size: small;
 }
-
+*/
 /*PRESENTATION-INDEX MOBILE*************
 ****************************************/
 
-.us{
+/*.us{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -613,15 +607,15 @@ h2{
     width: 50px;
     height: 50px;
 }
-
-.img-us img{
+*/
+/*.img-us img{
     visibility: hidden;
     position: fixed;
-}
+}*/
 /************PRODUCTOS-INDEX MOBILE*************
 ************************************************/
 
-.servicios{
+/*.servicios{
     background-image: none;
     display: grid;
     grid-template-rows: 200px;
@@ -641,7 +635,7 @@ h2{
     width: 400px;
     height: 200px;
 }
-
+*/
 /*******NUESTRA-FLOTA-INDEX MOBILE******
 ****************************************/
     
@@ -660,14 +654,6 @@ h2{
 }
 
 }
-
-
-
-
-
-
-
-
 
 
 

@@ -5,7 +5,6 @@
 */
 /*ESPACIO -_-*/
 /*NAV BAR*/
-/***************COLORES**************/
 .conteinernav {
   width: 100%;
   background-image: linear-gradient(to bottom, #4facfe 0%, #00f2fe 100%); }
@@ -98,7 +97,6 @@
   text-align: center; }
 
 /*INDEX PRINCIPAL*/
-/***************COLORES**************/
 .contenido-principal {
   background-size: 100% 100%;
   flex-wrap: wrap;
@@ -187,7 +185,6 @@
     text-align: center; }
 
 /*PRODUCTOS INDEX*/
-/***************COLORES**************/
 .servicios {
   background-repeat: no-repeat;
   background-size: contain;
@@ -225,7 +222,6 @@
   margin: 5px; }
 
 /*********WORK US *************/
-/***************COLORES**************/
 .titulo-flota {
   background-image: linear-gradient(to top, #4facfe 0%, #00f2fe 100%);
   margin: 5px; }
@@ -260,7 +256,6 @@
     margin: 25px; }
 
 /*FORMULARIO**/
-/***************COLORES**************/
 .titulo-form {
   background-image: linear-gradient(to top, #4facfe 0%, #00f2fe 100%);
   margin: 5px; }
@@ -286,4 +281,145 @@
       width: 100%;
       height: 100%; }
 
-/***************COLORES**************/
+/*RESPONSIVE TABLET*/
+@media (min-width: 768px) and (max-width: 1023px) {
+  /*NAV BAR TABLET*/
+  .navbar {
+    width: 50%;
+    display: flex;
+    flex-direction: column; }
+    .navbar header {
+      margin-bottom: 15px; }
+  /*INDEX PRINCIPAL TABLET
+
+    .contenido-principal{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        div{
+            width: 50%;
+        }
+    }
+
+
+    .contenido-sec{
+        display: grid;
+        grid-template-columns: 250px 250px 250px;
+        grid-template-rows: 250px 250px;
+        div{
+            width: 200px;
+            height: 200px;
+            p{
+                font-size: small;
+            }
+        }
+    }
+
+
+    //FOOTER
+
+    /*FOOTER TABLET*/
+  .pie-pagina .grupo-1 .box h2 {
+    margin-left: 5px; }
+  .us {
+    display: flex;
+    flex-direction: column; }
+    .us img {
+      justify-content: center;
+      width: 50px;
+      height: 50px; }
+    .us p {
+      border: 1px solid cyan; }
+  .servicios {
+    background-image: none;
+    grid-template-columns: 400px 400px; }
+    .servicios img {
+      height: 250px;
+      width: 250px;
+      margin: 15px; }
+    .servicios p {
+      height: 300px;
+      width: 300px;
+      font-size: 25px;
+      background-image: url(../imagenes/backfortext.jpg);
+      margin: 15px;
+      justify-content: center;
+      align-items: center;
+      text-align: center; }
+  .flota img {
+    width: 315px;
+    height: 250px; }
+  /*FORMULARIO TABLET */
+  .formulario {
+    margin-left: 15px;
+    margin-top: 15px; }
+    .formulario div {
+      background-image: url(../imagenes/formulariofondotablet.png);
+      width: 100%;
+      height: 300px;
+      background-repeat: no-repeat;
+      margin-top: 105px; }
+    .formulario img {
+      visibility: hidden; } }
+
+/*RESPONSIVE MOBILE*/
+@media (max-width: 480px) {
+  /*NAV BAR MOBILE*/
+  .navbar {
+    width: 90%;
+    display: flex;
+    flex-direction: column; }
+    .navbar header {
+      margin-bottom: 15px; }
+    .navbar ul li {
+      display: block;
+      margin-bottom: 5px; }
+      .navbar ul li a {
+        font-size: large; }
+  /*FOOTER MOBILE*/
+  .pie-pagina .grupo-1 {
+    grid-template-columns: repeat(1, 1fr); }
+  /*INDEX PRINCIPAL MOBILE*/
+  .contenido-principal div .stytextindex {
+    font-size: x-large;
+    margin-top: 190px; }
+  .contenido-sec {
+    grid-template-columns: 350px;
+    grid-template-rows: 200px;
+    align-items: center; }
+    .contenido-sec div {
+      height: 200px; }
+      .contenido-sec div p {
+        padding-top: 50px;
+        font-size: small; }
+  /*PRESENTATION INDEX MOBILE*/
+  .us {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .us p {
+      font-size: medium; }
+    .us img {
+      margin-top: 10px;
+      width: 50px;
+      height: 50px; }
+  .img-us {
+    visibility: hidden;
+    position: fixed; }
+  /*SERVICIOS MOBILE*/
+  .servicios {
+    background-image: none;
+    display: grid;
+    grid-template-rows: 200px;
+    grid-template-columns: 400px;
+    margin: 0px; }
+    .servicios img {
+      width: 400px;
+      height: 200px;
+      border-radius: 15px;
+      margin: 0px; }
+    .servicios p {
+      font-size: x-large;
+      width: 400px;
+      height: 200px; } }
