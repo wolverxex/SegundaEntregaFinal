@@ -1,0 +1,2 @@
+keywords: "logistica, transporte, envios, encomiendas ,argentina, chubut"
+ En cada archivo html: indique un título referido a lo que se muestra en cada uno de ellos : ejemplo, productsindex.html =titulo:Servicios - HEAVY S.R.L
