@@ -180,7 +180,7 @@ body {
 
 .contenido-sec div p {
   text-align: center;
-  padding: 25px;
+  padding: 50px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: large;
   font-weight: bold; }
@@ -245,7 +245,7 @@ body {
     border-radius: 15px;
     text-align: center; }
 
-.titulo-servicios, .titulo-clientes {
+.titulo-servicios {
   background-image: linear-gradient(to top, #4facfe 0%, #00f2fe 100%);
   text-align: center;
   color: white;
@@ -453,60 +453,3 @@ body {
     margin-top: 10px; }
     .formulario div img {
       visibility: hidden; } }
-
-.titulo-clientes {
-  background-image: linear-gradient(-225deg, #77FFD2 0%, #6297DB 48%, #1EECFF 100%); }
-
-.clientes {
-  background-image: linear-gradient(to bottom, #00c6fb 0%, #005bea 100%); }
-  .clientes .slider-clientes {
-    width: 820px;
-    margin: auto;
-    overflow: hidden;
-    justify-content: center;
-    align-items: center; }
-    .clientes .slider-clientes ul {
-      padding: 0;
-      display: flex;
-      width: 400%;
-      justify-content: center;
-      align-items: center;
-      animation: cambio 20s infinite;
-      /*ease in , ease out*/ }
-    .clientes .slider-clientes li {
-      width: 100%;
-      list-style: none;
-      justify-content: center;
-      align-items: center; }
-    .clientes .slider-clientes img {
-      /* directamente las imagenes le dio un tamano previamente sin css*/
-      margin-top: 3px;
-      width: 820px; }
-
-@keyframes cambio {
-  0% {
-    margin-left: 0; }
-  20% {
-    margin-left: 0; }
-  25% {
-    margin-left: -100%; }
-  45% {
-    margin-left: -100%; }
-  50% {
-    margin-left: -200%; }
-  70% {
-    margin-left: -200%; }
-  75% {
-    margin-left: -300%; }
-  90% {
-    margin-left: -300%; } }
-
-.clientes-dos {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center; }
-  .clientes-dos img {
-    width: 500px;
-    height: 500px;
-    margin: 25px 10px 25px 10px; }
