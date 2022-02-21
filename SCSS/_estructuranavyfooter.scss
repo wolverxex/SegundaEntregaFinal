@@ -71,11 +71,11 @@ body{
         display: flex;
         align-items: center;
         justify-content: space-between;
-        header a{
-            font-size: 50px;
-            text-decoration: none;
-            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-            color: white;
+            .titulo-encabezado{
+                font-size: 50px;
+                text-decoration: none;
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                color: white;
         
         }
     }
@@ -129,7 +129,7 @@ body{
             display: flex; flex-direction: column;
             justify-content: center;
             align-items: center;
-            h2{
+            .info{
                 font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
                 color: white;
                 font-size: 50px;
@@ -139,20 +139,15 @@ body{
                 margin-bottom: 10px;
                 font-family: Arial, Helvetica, sans-serif;
                 font-size: large;
-                text-align: center;
-                a{
-                    text-decoration: none;
-                    color: white;
-                    border: 2px double white;
-                    &:hover{
-                        background-color: white;
-                        color: #005bea;
-                        
-                    
-                    }
-                    
-                    
-                }
+                text-align: center;}
+            a{
+                text-decoration: none;
+                color: white;
+                border: 2px double white;
+                &:hover{
+                background-color: white;
+                color: #005bea;}
+                                                                                                   
             }
                 
             
@@ -161,14 +156,20 @@ body{
     }
 }
 
+
 .pie-pagina{
     .box{
+        #red{
+            border: 0px;
+            
+            
+        }
         .imgredes{
             margin-bottom: 15px;
-    width: 50px;
-    height: 50px;
-    text-decoration: none;
-    border-radius: 10px;
+            width: 50px;
+            height: 50px;
+            text-decoration: none;
+            border-radius: 10px;
         }
     }
 }
@@ -182,3 +183,8 @@ body{
     }
 }
 
+.text-footer{
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}

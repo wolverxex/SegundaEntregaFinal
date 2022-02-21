@@ -4,15 +4,14 @@
 
 @import "colors";
 
-.titulo-flota{
+h1{
     background-image: $titulos;
     margin: 5px;
-    h2{
-        font-size: xx-large;
-        font-family: Arial, Helvetica, sans-serif;
-        font-weight: bolder;
-        color: white;
-    }
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: white;
+    
 }
 
 .titulo-nuestra-flota{

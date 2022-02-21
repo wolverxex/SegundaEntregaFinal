@@ -7,17 +7,16 @@
 .titulo-form{
     background-image: $titulos;
     margin: 5px;
-    h2{
-        font-size: xx-large;
-        font-family: Arial, Helvetica, sans-serif;
-        font-weight: bolder;
-        color: white;
-    }
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: white;
+    
 }
 
 .formulario{
     margin: 10px;
-    h3{
+    h2{
         background-image: linear-gradient(to bottom, #4facfe 0%, #00f2fe 100%);
         color: white;
         font-family: Arial, Helvetica, sans-serif;
