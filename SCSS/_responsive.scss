@@ -36,6 +36,7 @@
             height: 200px;
             p{
                 font-size: small;
+                padding: 30px;
             }
         }
     }
@@ -227,6 +228,9 @@
     /*FORMULARIO MOBILE*/
 
     .formulario{
+        form{
+            margin-left: 90px;
+        }
         div{
             background-image: url(../imagenes/MOBILEBACKTITULO2.png);
             width: 100%;
