@@ -35,6 +35,19 @@
     }
 }
 
+.animation-start-right{
+    animation-name: bienvenida;
+    animation-duration: 3s;
+    animation-iteration-count: ease;
+    
+    
+}
+
+@keyframes bienvenida{
+    0% {margin-left: 1000px;}
+    100% {margin-left: 25px;}
+}
+
 
 
 .contenido-principal div img{

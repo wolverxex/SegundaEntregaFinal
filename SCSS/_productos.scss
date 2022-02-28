@@ -7,29 +7,39 @@
 .servicios{
     background-repeat: no-repeat;
     background-size: contain;
-    display: grid;
-    grid-template-rows: 300px 300px;
-    grid-template-columns: 700px 700px;
-    justify-content: center;
-    justify-items: center;
-    align-items: center;
     margin: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .contenido-prod{
+        display: flex;
+        flex-direction: row;
+        box-shadow: 1px 2px 2px 1px black;
+        justify-content: space-around;
+        align-items: center;
+        margin: 15px;
+        width: fit-content;}          
     img{
+        margin-left: 5px;
         width: 500px;
         height: 250px;
         border-radius: 15px;}
     p{
-        background-image: url(../imagenes/backfortext.jpg);
+        padding: auto;
         background-repeat: no-repeat;
         height: 250px;
-        width: 500px;
-        padding: 50px;
+        width: 500px; 
         font-family: Arial, Helvetica, sans-serif;
         font-size: xx-large;
         font-weight: bold;
         margin: 15px;
         border-radius: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         text-align: center;
+        text-decoration: underline cyan 5px;
     }
 }
 
