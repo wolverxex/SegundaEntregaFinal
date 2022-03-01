@@ -193,13 +193,12 @@ body {
     margin: 25px;
     border-radius: 15px;
     background-image: url(../imagenes/backfortext.jpg); }
-
-.contenido-sec div p {
-  text-align: center;
-  padding: 50px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: large;
-  font-weight: bold; }
+  .contenido-sec p {
+    text-align: center;
+    padding-top: 20%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: bold; }
 
 .contenido-sec div img {
   width: 100%;
@@ -361,7 +360,12 @@ h1 {
   color: white; }
 
 .formulario {
-  margin: 10px; }
+  background-image: url(../imagenes/ruta40.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
   .formulario h2 {
     background-image: linear-gradient(to bottom, #4facfe 0%, #00f2fe 100%);
     color: white;
@@ -377,7 +381,7 @@ h1 {
       height: 100%; }
 
 form {
-  margin-left: 50px;
+  margin: 45px 0 45px 0;
   width: 200px;
   background-image: linear-gradient(to bottom, #4facfe 0%, #00f2fe 100%);
   padding: 10px;
@@ -426,49 +430,27 @@ form {
       .contenido-sec div p {
         font-size: small;
         padding: 30px; }
+  .animation-start-right {
+    animation-name: none; }
   /*FOOTER TABLET*/
   .pie-pagina .grupo-1 .box h2 {
     margin-left: 5px; }
-  .us {
-    display: flex;
-    flex-direction: column; }
-    .us img {
-      justify-content: center;
-      width: 50px;
-      height: 50px; }
-    .us p {
-      border: 1px solid cyan; }
-  .servicios {
-    background-image: none;
-    grid-template-columns: 400px 400px; }
-    .servicios img {
-      height: 250px;
-      width: 250px;
-      margin: 15px; }
-    .servicios p {
-      height: 300px;
-      width: 300px;
-      font-size: 25px;
-      background-image: url(../imagenes/backfortext.jpg);
-      margin: 15px;
-      justify-content: center;
-      align-items: center;
-      text-align: center; }
+  .servicios img {
+    height: 250px;
+    width: 400px;
+    margin: 15px; }
+  .servicios p {
+    height: 300px;
+    width: 300px;
+    font-size: 25px; }
   .flota img {
     width: 315px;
     height: 250px; }
   /*FORMULARIO TABLET */
   .formulario {
-    margin-left: 15px;
-    margin-top: 15px; }
-    .formulario div {
-      background-image: url(../imagenes/formulariofondotablet.png);
-      width: 100%;
-      height: 300px;
-      background-repeat: no-repeat;
-      margin-top: 105px; }
-    .formulario img {
-      visibility: hidden; } }
+    background-image: url(../imagenes/ruta40dos.jpg); }
+  form {
+    margin: 88px 0 88px 0; } }
 
 /*RESPONSIVE MOBILE*/
 @media (max-width: 480px) {
@@ -500,45 +482,47 @@ form {
       .contenido-sec div p {
         padding-top: 50px;
         font-size: small; }
+  .animation-start-right {
+    animation-name: none; }
   /*PRESENTATION INDEX MOBILE*/
-  .us {
-    display: flex;
+  /*.us{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        p{
+            font-size: medium;}
+        img{
+            margin-top: 10px;
+            width: 50px;
+            height: 50px;
+        }
+    }
+
+    .img-us{
+        visibility: hidden;
+        position: fixed;
+    }*/
+  .slider {
+    width: 400px;
+    margin: auto; }
+  ul li img {
+    width: 400px; }
+  .us h2 {
+    text-align: center;
+    align-items: center; }
+  .us p {
+    font-size: medium; }
+  /*SERVICIOS MOBILE*/
+  .servicios .contenido-prod {
     flex-direction: column;
     justify-content: center;
-    align-items: center; }
-    .us p {
-      font-size: medium; }
-    .us img {
-      margin-top: 10px;
-      width: 50px;
-      height: 50px; }
-  .img-us {
-    visibility: hidden;
-    position: fixed; }
-  /*SERVICIOS MOBILE*/
-  .servicios {
-    background-image: none;
-    display: grid;
-    grid-template-rows: 200px;
-    grid-template-columns: 400px;
-    margin: 0px; }
-    .servicios img {
-      width: 400px;
-      height: 200px;
-      border-radius: 15px;
-      margin: 0px; }
-    .servicios p {
-      font-size: x-large;
-      width: 400px;
-      height: 200px; }
-  /*FORMULARIO MOBILE*/
-  .formulario form {
-    margin-left: 90px; }
-  .formulario div {
-    background-image: url(../imagenes/MOBILEBACKTITULO2.png);
-    width: 100%;
-    height: 200px;
-    background-repeat: no-repeat;
-    margin-top: 10px; }
-    .formulario div img {
-      visibility: hidden; } }
+    margin: 15px 0 15px 0;
+    box-shadow: none; }
+    .servicios .contenido-prod img {
+      width: 350px; }
+    .servicios .contenido-prod p {
+      height: 100px;
+      width: 350px;
+      font-size: large; }
+  /*FORMULARIO MOBILE*/ }

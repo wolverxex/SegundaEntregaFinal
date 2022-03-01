@@ -41,6 +41,11 @@
         }
     }
 
+.animation-start-right{
+    animation-name: none;
+               
+}
+
 
     //FOOTER
 
@@ -53,37 +58,18 @@
 
     //PRESENTATION INDEX TABLET
 
-    .us{
-        display: flex;
-        flex-direction: column;
-        img{
-            justify-content: center;
-            width: 50px;
-            height: 50px;}
-        p{
-            border: 1px solid cyan;
-        }
-    }
 
     //SERVICIOS TABLET
 
     .servicios{
-        background-image: none;
-        grid-template-columns: 400px 400px;
         img{
             height: 250px;
-            width: 250px;
+            width: 400px;
             margin: 15px;}
         p{
             height: 300px;
             width: 300px;
             font-size: 25px;
-            background-image: url(../imagenes/backfortext.jpg);
-            margin: 15px;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            
         }
     }
 
@@ -101,18 +87,10 @@
     /*FORMULARIO TABLET */
 
     .formulario{
-        margin-left: 15px;
-        margin-top: 15px;
-        div{
-            background-image: url(../imagenes/formulariofondotablet.png);
-            width: 100%;
-            height: 300px;
-            background-repeat: no-repeat;
-            margin-top: 105px;}
-        img{
-            visibility: hidden;
-        }
-    }
+        background-image: url(../imagenes/ruta40dos.jpg);}
+        form{
+            margin: 88px 0 88px 0;
+        }      
 }
 
 //RESPONSIVE MOBILE
@@ -178,11 +156,14 @@
         }
     }
 
+    .animation-start-right{
+        animation-name: none;}
+
     //PRESENTATION INDEX MOBILE
 
     /*PRESENTATION INDEX MOBILE*/
 
-    .us{
+    /*.us{
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -199,6 +180,23 @@
     .img-us{
         visibility: hidden;
         position: fixed;
+    }*/
+
+    .slider{
+        width: 400px;
+        margin: auto;}
+        ul li img{
+            width: 400px;
+        }
+
+    .us{
+        h2{
+            text-align: center;
+            align-items: center;
+        }
+        p{
+            font-size: medium;
+        }
     }
 
     //SERVICIOS INDEX MOBILE
@@ -206,41 +204,28 @@
     /*SERVICIOS MOBILE*/
 
     .servicios{
-        background-image: none;
-        display: grid;
-        grid-template-rows: 200px;
-        grid-template-columns: 400px; 
-        margin: 0px; 
-        img{
-            width: 400px;
-            height: 200px;
-            border-radius: 15px;
-            margin: 0px;}
-        p{
-            font-size: x-large;
-            width: 400px;
-            height: 200px;
+        .contenido-prod{
+            flex-direction: column;
+            justify-content: center;
+            margin: 15px 0 15px 0;
+            box-shadow: none;
+            img{
+                width: 350px;
+            }
+            p{
+                height: 100px;
+                width: 350px;
+                font-size: large;
+            }
         }
     }
+
+
+
 
     //FORMULARIO MOBILE
 
     /*FORMULARIO MOBILE*/
 
-    .formulario{
-        form{
-            margin-left: 90px;
-        }
-        div{
-            background-image: url(../imagenes/MOBILEBACKTITULO2.png);
-            width: 100%;
-            height: 200px;
-            background-repeat: no-repeat;
-            margin-top: 10px;
-            img{
-                visibility: hidden;
-            }
-        }
-    }
-
+   
 }
