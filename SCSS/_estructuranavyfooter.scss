@@ -75,9 +75,14 @@ body{
                 font-size: 50px;
                 text-decoration: none;
                 font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-                color: white;
+                color: white;}
+            #bt-menu{
+                display: none;
+            }
+            label{
+                display: none;
+            }
         
-        }
     }
     
 }
@@ -109,6 +114,8 @@ body{
 .navbar ul li:hover::before{
     width: 100%;
 }
+
+
 
 /*FOOTER*/
 

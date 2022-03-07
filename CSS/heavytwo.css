@@ -53,6 +53,10 @@ body {
       text-decoration: none;
       font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
       color: white; }
+    .conteinernav .navbar #bt-menu {
+      display: none; }
+    .conteinernav .navbar label {
+      display: none; }
 
 .navbar ul li {
   list-style: none;
@@ -455,17 +459,37 @@ form {
 /*RESPONSIVE MOBILE*/
 @media (max-width: 480px) {
   /*NAV BAR MOBILE*/
-  .navbar {
-    width: 90%;
+  .conteinernav .navbar {
+    display: flex;
+    flex-direction: row-reverse; }
+    .conteinernav .navbar .titulo-encabezado {
+      margin-left: 150px; }
+    .conteinernav .navbar label {
+      display: block; }
+    .conteinernav .navbar #bt-menu:checked ~ .mobile-position {
+      margin-right: 0px; }
+    .conteinernav .navbar .mobile-position {
+      position: relative;
+      left: 190px;
+      top: 150px;
+      background-image: linear-gradient(to bottom, #4facfe 0%, #00f2fe 100%);
+      margin-right: 190px;
+      border: solid 1px white; }
+    .conteinernav .navbar ul {
+      width: 180px;
+      height: 200px;
+      justify-content: center;
+      align-items: center; }
+    .conteinernav .navbar li {
+      justify-content: center;
+      align-items: flex-start;
+      width: 150px;
+      height: 50px; }
+    .conteinernav .navbar a {
+      border-bottom: 1px solid white; }
+  .navbar ul li {
     display: flex;
     flex-direction: column; }
-    .navbar header {
-      margin-bottom: 15px; }
-    .navbar ul li {
-      display: block;
-      margin-bottom: 5px; }
-      .navbar ul li a {
-        font-size: large; }
   /*FOOTER MOBILE*/
   .pie-pagina .grupo-1 {
     grid-template-columns: repeat(1, 1fr); }
@@ -485,24 +509,6 @@ form {
   .animation-start-right {
     animation-name: none; }
   /*PRESENTATION INDEX MOBILE*/
-  /*.us{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        p{
-            font-size: medium;}
-        img{
-            margin-top: 10px;
-            width: 50px;
-            height: 50px;
-        }
-    }
-
-    .img-us{
-        visibility: hidden;
-        position: fixed;
-    }*/
   .slider {
     width: 400px;
     margin: auto; }

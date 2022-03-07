@@ -101,24 +101,54 @@
 
     /*NAV BAR MOBILE*/
 
-    .navbar{
-        width: 90%;
-        display: flex;
-        flex-direction: column;
-        header{
-            margin-bottom: 15px;}
-            ul li{
-                display: block;
-                margin-bottom: 5px;
-                
-                a{
-                    font-size: large;
-                    
+
+
+    .conteinernav{
+        .navbar{
+            display: flex;
+            flex-direction: row-reverse;
+                .titulo-encabezado{
+                    margin-left: 150px;}
+                label{
+                    display: block;
                 }
-            }
-        
-        
+                #bt-menu:checked ~ .mobile-position{
+                    margin-right: 0px;
+
+                }
+                .mobile-position{
+                    position: relative;
+                    left: 190px;
+                    top: 150px;
+                    background-image: $navbarcolor;
+                    
+                    margin-right: 190px;
+                    border: solid 1px white; 
+                }
+                ul{
+                    width: 180px;
+                    height: 200px;
+                    justify-content: center;
+                    align-items: center;
+                }
+                li{
+                    justify-content: center;
+                    align-items: flex-start;
+                    width: 150px;
+                    height: 50px;
+                }
+                a{
+                    border-bottom: 1px solid white;
+                }
     }
+}
+
+
+    .navbar ul li{
+            display: flex;
+            flex-direction: column;
+    }
+
 
 
     //FOOTER MOBILE
@@ -163,24 +193,6 @@
 
     /*PRESENTATION INDEX MOBILE*/
 
-    /*.us{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        p{
-            font-size: medium;}
-        img{
-            margin-top: 10px;
-            width: 50px;
-            height: 50px;
-        }
-    }
-
-    .img-us{
-        visibility: hidden;
-        position: fixed;
-    }*/
 
     .slider{
         width: 400px;
